@@ -774,6 +774,8 @@ and the respective products are the dot product, \textbf{(A $\times$ B) $\cdot$ 
 
 \clearpage
 
+% 2018-06-27
+
 Chapter 2
 
 \textbf{Questions}
@@ -842,7 +844,7 @@ and so the vertical component of the tension would not change.
 (The forces here form the sides of a triangle.
 The vertical side has a constant length,
 because its length is whatever it needs to be for the shirt to be in equilibrium.
-The horizonal side grows in length as the horizontal component of the tension is increased, 
+The horizonal side grows in length as the horizontal component of the tension is increased,
 and the hypotenuse grows to compensate.)
 
 \vspace{\baselineskip}
@@ -853,7 +855,7 @@ The rope passes over a pulley suspended from the ceiling and the man holds the o
 of the rope in his hands.
 What is the tension in the rope, and what force does the chair exert on the man?
 
-Intuitively, we know that if you were suspended from a single rope attached to the ceiling, 
+Intuitively, we know that if you were suspended from a single rope attached to the ceiling,
 that the tension in the rope would be equal to your weight.
 If we were to hang two pieces of rope from the ceiling, and you suspended yourself by
 hanging onto both ropes (as a gymnast, say), then your weight would be distributed between
@@ -861,7 +863,7 @@ both ropes and so each rope would have a tension equal to half of your weight.
 
 If the man is pulling down on the rope (on one side of the pulley) with his hands,
 then per Newton's third law, the rope is pulling up on the man.
-If the tension in the rope accounts for half of his weight, 
+If the tension in the rope accounts for half of his weight,
 then the chair must account for the other half of his weight, since the man is in equilibrium.
 
 That's our intuition, but let's confirm out intuition with math (because, hey, math is awesome).
@@ -869,17 +871,17 @@ The forces on the man are the tension in the rope (T, pulling him up), the norma
 (N, pushing him up), and the force of gravity (mg, pulling him down).
 The man is in equilibrium, so we have T + N - mg = 0.
 
-The forces on the chair are the normal force of the man (N, directed down), and the tension 
+The forces on the chair are the normal force of the man (N, directed down), and the tension
 of the rope (T, pulling the chair up).
 Note that the tension is the same everywhere in the rope.  So that's T - N = 0.
 
-Adding these two equations together, we have T + N - mg + T - N = 0, which is 2T = mg and so T = $\frac{1}{2} mg$,
-which confirms our intuition (see, I told you math was awesome).  The normal force is N = T, so N is also $\frac{1}{2} mg$.
+Adding these two equations together, we have T + N - mg + T - N = 0, which is 2T = mg and so T = $\frac{1}{2}$mg,
+which confirms our intuition (see, I told you math was awesome).  The normal force is N = T, so N is also $\frac{1}{2}$mg.
 
 The normal force is a third-law pair, so the normal force of the chair on the man is the same as the normal force
-of the man on the chair, just in the opposite direction.  Note that the normal force is a \textit{constraint force}, 
-so it adjusts as required to preserve Newton's equations.  
-Here the man is pulling down on the rope, so the rope is pulling up on the man, and this makes the normal force less 
+of the man on the chair, just in the opposite direction.  Note that the normal force is a \textit{constraint force},
+so it adjusts as required to preserve Newton's laws.
+Here the man is pulling down on the rope, so the rope is pulling up on the man, and this makes the normal force less
 than it would be otherwise, were the man simply sitting in the chair.
 
 \vspace{\baselineskip}
@@ -887,11 +889,117 @@ than it would be otherwise, were the man simply sitting in the chair.
 \noindent
 \textbf{2-7} How can pushing down on a bicycle pedal make the bicycle move \textit{forward}?
 
+The gears change the direction of the force (not unlike what a pulley does).
+The chain transmits the force to the back wheel, creating a torque, which causes the wheel to rotate.
+There is friction between the wheel and the road.
+(There is no relative motion between the wheel and the road at the point of contact, so this static friction.)
+The wheel is pushing against the road.
+Per the third law, there is a reaction force, from the road to the wheel.
+This is the force that propels the bicycle forward.
+
 \vspace{\baselineskip}
 
 \noindent
 \textbf{2-8} A car is driven up a steep hill at constant speed.
 Discuss all the forces acting on the car; in particular, what pushes it up the hill?
 
+There is a normal force from the road to the car, in a direction perpendicular to the road.
+There is the force of gravity on the car, directed downwards, towards the center of the earth.
 
+There is one more force acting on the car.
+As with the bicycle in 2-7, the wheel pushes against the road, so the road pushes against the wheel, per the third law.
+
+If you decompose the force due to gravity, there is a component directed down, perpendicular from the road.
+This force is exactly balanced by the normal force (there is no acceleration in the perpendicular direction).
+There is also a component directed backwards, parallel to the road.  This force is exactly balanced by the frictional force
+(the car is traveling at constant velocity, so there is no acceleration, hence the forces in the parallel direction must also be in balance).
+
+\vspace{\baselineskip}
+
+\noindent
+\textbf{2-9} Can the coefficient of friction ever be greater than unity?
+If so, give an example; if not, explain why not.
+
+The frictional force is proportional to the normal force.
+For the coefficient of friction to be greater than unity, the frictional force would need to be greater than the normal force.
+This can happen if the surfaces were sticky (perhaps they're attached using Velcro), or made from rubber or something.
+
+\vspace{\baselineskip}
+
+\noindent
+\textbf{2-10} A block rests on an inclined plane with enough friction to prevent sliding down.
+To start the block moving, is it easier to push it up the plane, down the plane, or sideways?  Why?
+
+It would require the least amount of force to get the block moving by pushing the block down the plane.
+
+Static friction force is a constraint force, meaning that it adjusts, enough to exactly balance the force
+on the object parallel to the surface, but only up to the limit of $\mu_s \cdot$ \textbf{N}.
+There is a component of the gravitational force directed down the ramp, so this gives us a kind of head start.
+We would only need to apply an amount of force equal to the difference between the maximum frictional force
+and the component of gravity directed down the ramp.
+
+Pushing in other directions would require more force.
+Were we to push the block up the ramp, we would first have to overcome the gravitational force,
+and then overcome the maximum frictional force (which would now be pointed the other way, down the ramp).
+If we were to push sideways, we would need to overcome the maximum frictional force.
+
+\vspace{\baselineskip}
+
+\noindent
+\textbf{2-11} In pushing a box up a ramp, is it better to push horizontally or to push parallel to the ramp?
+
+It's better to push parallel to the ramp.  A horizontal push force has an upward component, parallel to the ramp,
+and another downward component, perpendicular to the ramp.  The perpendicular component would add to the component 
+of the gravitational force also perpendicular to the ramp, which would only increase the normal force.
+
+The work done on an object (here, on a box, to raise it higher) is the scalar product of the force
+and the displacement, so any forces on the object not along the displacement vector are wasted.  
+Things are even worse if there is friction, because increasing the normal force would increase the maximum 
+frictional force, and you'd have to increase the parallel component of the force to compensate.
+
+If you push the box parallel to the ramp, the normal force is due to gravity alone, so the maximum frictional force
+would be less, and none of the force would be wasted.
+
+\vspace{\baselineskip}
+
+\noindent
+\textbf{2-12} In stopping a car on an icy road, is it better to push the brake pedal hard enough to ``lock" 
+the wheels and make them slide, or to push gently so the wheels continue to roll?  Why?
+
+It's better to gently push, so the wheels continue to roll.  If the wheels were sliding against the road,
+then the relative velocity would be positive, and the frictional force would be kinetic.
+Kinetic friction has a lower coefficient than static friction, so the frictional force would be less,
+and there would be less deceleration.  
+
+\vspace{\baselineskip}
+
+\noindent
+\textbf{2-13} When one stands with bare feet in a wet bathtub, the grip feels fairly secure, 
+and yet a catastrophic slip is quite possible.
+Discuss this situation with respect to the two coefficients of friction.
+
+Static friction is a constraint force, so it adjusts but only up to a limit.  
+If you were to shift your stance a little but with enough force to overcome the force of static friction,
+resulting in relative motion, then the frictional force would become kinetic.
+Suddenly there is a positive net force, because the force of friction is now less then the shifting force,
+so your feet would accelerate.
+The effect is probably exaggerated in this case, since on a wet, smooth bathtub surface the coefficient of kinetic friction is 
+likely to be small compared to the coefficient of static friction.
+
+\vspace{\baselineskip}
+
+\noindent
+\textbf{2-14} The horrible squeak made by a piece of chalk held against a blackboard at the wrong angle results
+from an alternate sticking and slipping of the chalk against the blackboard.
+Interpret this phenomenon in terms of the two coefficients of friction.
+Can you think of other examples of ``slip-stick" behavior?
+
+As soon as the chalk slips, the frictional force is kinetic and now the chalk accelerates.
+But suppose it happens to hit a patch of the blackboard with a little more friction,
+and so the chalk decelerates.
+Perhaps it stops, so you push a little more to overcome the static friction, and now the chalk zooms again.  
+And so on.
+
+Another example: suppose you're on a bicycle heading fast downhill, but then jam on the brakes.  
+You're still moving, but the bicycle tires slide across the pavement, not unlike how the chalk slides across the blackboard.
 \end{document}

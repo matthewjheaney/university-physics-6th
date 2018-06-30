@@ -2,7 +2,7 @@
 
 A personal project to compile an answer key for a popular physics textbook:
 
-University Physics, 6th edition (1982)
+University Physics, 6th edition (1982)  
 Francis W. Sears, Mark W. Zemanski, Hugh D. Young  
 ISBN 0-201-07195-9 (0201071959)
 

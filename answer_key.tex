@@ -1,14 +1,16 @@
 \documentclass{amsart}
 \usepackage{graphicx}
 \usepackage{physics}
+\usepackage{hyperref}
 
 \begin{document}
 
 %I know very little about LaTeX.  Feel free to make corrections to the code here.
 
-\begin{flushright}
+\begin{flushleft}
+\url{https://github.com/matthewjheaney/university-physics-6th}\newline
 Generated on \today
-\end{flushright}
+\end{flushleft}
 
 \begin{flushleft}
 University Physics, 6th edition (1982)\newline
@@ -1405,31 +1407,137 @@ b) If the $60^\circ$ angle is changed to $45^\circ$, find the tension in each co
 
 The system is in equilibrium, so when we decompose each force, the magnitudes of the components must be equal.
 Considering the forces on the mass, the tension $T_1$ must equal the mass's weight, so $T_1$ = 50\,N.
-(Another way to see this is to remember that the purpose of a rope is to transmit a force.  
+(Another way to see this is to remember that the purpose of a rope is to transmit a force.
 If the weight of the mass attached to the rope is 50\,N, then that's also the tension in the rope.)
 
 Considering the forces at the knot,
-we have 
+we have
 $T_1 = T_3 \cdot \sin 60^\circ$, so $T_3 = \frac{50}{\sqrt{3}/2}$ $\approx$ 57.7\,N,
 and $T_2 = T_3 \cdot \cos 60^\circ = \frac{50}{\sqrt{3}}$ $\approx$ 28.9\,N.
 
-If we change the angle to $45^\circ$, then $T_1 = T_3 \cdot \sin 45^\circ$, 
-so $T_3 = \frac{50}{1/\sqrt{2}}$ $\approx$ 70.7\,N, 
-and $T_2 = T_3 \cdot \cos 45^\circ = 50\,N$.  
+If we change the angle to $45^\circ$, then $T_1 = T_3 \cdot \sin 45^\circ$,
+so $T_3 = \frac{50}{1/\sqrt{2}}$ $\approx$ 70.7\,N,
+and $T_2 = T_3 \cdot \cos 45^\circ = 50\,N$.
 (Tension $T_1$ equals the weight, so it doesn't change.)
 
 \vspace{\baselineskip}
 \noindent
 \textbf{2-16} A picture frame is hung against a wall, suspended by two wires
 attached to its upper corners.
-If the two wires make the same angle with the vertical, 
+If the two wires make the same angle with the vertical,
 what must this angle be for the tension in each wire to equal the weight of the frame?
 
 The picture frame is in equilibrium, so the sum of the upward components of the tension in the wires
 must equal the downward weight of the frame.  So we have $T \cos \theta + T \cos \theta = w$.
-We are told that the tension in each wire equals the weight, so $2\,w \cos \theta = w$, 
+We are told that the tension in each wire equals the weight, so $2\,w \cos \theta = w$,
 which simplifies to $\cos \theta = \frac{1}{2}$, and therefore $\theta = 60^\circ$.
 
+\vspace{\baselineskip}
+\noindent
+\textbf{2-17} Figure 2-17 (in the book) shows a technique call rappelling, used by mountaineers
+for descending vertical rock faces.
+The climber sites in a rope seat, and the rappel rope passes through a friction device attached
+to this seat.
+Suppose the rock is perfectly smooth, and the climber's feet push horizontally into the rock;
+if the climber's weight is 800\,N, find the tension in the rope and the force his fee exert
+on the rock face.
 
+The system is in equilibrium so opposing forces must have the same magnitude.
+Let $T_1$ be the tension in the rope.  The upward component $T_1$ must equal the downward
+weight of the climber, so we have $T_1 cos 15^\circ$ = 800\,N,
+and therefore $T_1$ = $\frac{800}{\cos 15^\circ}$ $\approx$ 828.2\,N.
+
+The tension of the rope pulls the climber into the rock face with a force of $T_1 \sin 15^\circ$
+$\approx$ 214.4\,N.
+
+\vspace{\baselineskip}
+\noindent
+\textbf{2-18} Figure 2-18 (of the book) illustrates a mountaineering technique call a Tyrolean traverse.
+A rope is stretched tightly between two points, and the climber slides across the rope.
+The climber's weight is 800\,N, and the breaking strength of the rope (typically nylon, 11 mm diameter)
+is 20,000\,N.\newline
+a) If the angle $\theta$ is $15^\circ$ , find the tension in the rope.\newline
+b) What is the smallest value the angle $\theta$ can have if the rope is not to break?
+
+The sum of the upward components of the tension in the two halves of the rope equals the downward
+weight of the climber.  We have $T \sin 15^\circ + T \sin 15^\circ$ = 800\,N,
+so $T = \frac{800}{2 \sin 15^\circ}$ = 1545.5\,N.
+
+For the system to be in equilibrium, it's always the case that the upward component of the tension
+in the rope equals the weight of the climber, no matter what is the angle.
+Increasing the tension will make the angle smaller, but the upward component will always be the same.
+The relationship is $T = \frac{800}{2 \sin \theta}$.
+The maximum tension is 20,000\,N, so we can write this as
+$\theta$ = $\arcsin(\frac{800}{2 \cdot 20,000})$ = $1.15^\circ$.
+
+\vspace{\baselineskip}
+\noindent
+\textbf{2-19} A man proposes to pull his car out of a mudhole on a country road by stretching a rope
+between the front of his car and a solid object directly in front of the car, and then pushing sideways
+at the midpoint of the rope.
+Suppose that the rope is 50\,m long, and that a sideways force of 300\,N is required to displace
+the midpoint sideways 5\,m.
+Determine the tension in the rope and the forward component of force on the car.
+
+We interpret the problem statement to mean that the distance between the solid object and the car
+is 50\,m, and that by applying a crosswise force to the rope that this stretches it a bit.
+The half-distance (25\,m) to the object, and the 5\,m crosswise displacement, makes a triangle,
+with the rope as the hypotenuse, having length $\sqrt{25^2 + 5^2}$ = $\sqrt{650}$.
+
+Let $\theta$ be the angle formed between the direct line from the car to the object and the rope.
+This gives us $\sin \theta = \frac{5}{\sqrt{650}}$, and $\cos \theta = \frac{25}{\sqrt{650}}$.
+
+Let T be the tension in the rope.
+Each half of the rope from the midpoint makes a separate contribution to the force,
+so we have $2 \cdot T \sin \theta = 300$.
+That gives us $T = \frac{300}{2 \cdot \frac{5}{\sqrt{650}}}$ = 764.9\,N.
+
+The force pulling the car forward is $T \cos \theta$ = $764.9 \cdot \frac{25}{\sqrt{650}}$ = 750\,N.
+
+\vspace{\baselineskip}
+\noindent
+\textbf{2-20} Find the tension in each cord in Fig.\,2-19 if the weight of the
+suspended body is 200\,N.
+
+For part (a), the sum of upward components of the cords equals the weight of the object.
+The sideways components are is opposite directions but are equal in magnitude.
+So we have $A \sin 30^\circ + B \sin 45^\circ = 200$, and
+$A \cos 30^\circ - B \cos 45^\circ = 0$.
+That gives us two equations and two unknowns.
+Solving this system of equations yields A = 146.4\,N and B = 179.3\,N.
+The tension in cord C equals the weight of the object, so C = 200\,N.
+
+For part (b), the upward component of B equals the weight of the object,
+which gives us $B = \frac{200}{\sin 45^\circ}$ = 282.8\,N.
+The sideways component of B equals the tension in A,
+so we have $A = B \cos 45^\circ$ = 200\,N.
+The tension in C is the same as the weight of the object, 200\,N.
+
+For part (c), the vertical component of cord A is downward,
+in the same direction as the weight.
+The angle that A makes with the horizonal is $30^\circ$.
+For the vertical forces, we have $B \sin 45^\circ = A \sin 30^\circ + 200$.
+For the horizontal forces, we have $B \cos 45^\circ = A \cos 30^\circ$.
+Solving this system of equations yields A = 546.4\,N and B = 669.2\,N.
+As in the other systems, cord C is 200\,N.
+
+For part (d), the vertical components of the C cords equals the weight
+of the object.  So that's $2 \cdot C \sin 53^\circ = 200$,
+so $C = \frac{200}{2 \sin 53^\circ}$ = 125.2\,N.
+To determine A, we have a couple of options.
+In the first case, the vertical component of A equals the vertical component of C,
+which gives us the relation $A \sin 37^\circ = C \sin 53^\circ$.
+Solving for A that way gives us $A = C \cdot \frac{sin 53^\circ}{sin 37^\circ}$ = 166.2\,N.
+Alternatively, we could treat the tension in cords B and C as internal forces,
+and realize that the upward components of A equal the downward weight of the object.
+That relation is $2 \cdot A \sin 37^\circ = 200$.
+Solving for A yields the same answer.
+
+At the point where cords A, B, and C meet, the system is in equibrium.
+The horizonal component of A equals the sum of the tension from B
+and the horizonal component of C.
+That relation is $A \cos 37^\circ = B + C \cos 53^\circ$.
+We have calculated A and C,
+so that yields $B = A \cos 37^\circ - C \cos 53^\circ$ = 57.3\,N.
 
 \end{document}

@@ -1527,8 +1527,9 @@ so $C = \frac{200}{2 \sin 53^\circ}$ = 125.2\,N.
 To determine A, we have a couple of options.
 In the first case, the vertical component of A equals the vertical component of C,
 which gives us the relation $A \sin 37^\circ = C \sin 53^\circ$.
-Solving for A that way gives us $A = C \cdot \frac{sin 53^\circ}{sin 37^\circ}$ = 166.2\,N.
-Alternatively, we could treat the tension in cords B and C as internal forces,
+Solving for A that way gives us $A = C \cdot \frac{\sin 53^\circ}{\sin 37^\circ}$ = 166.2\,N.
+Alternatively, we could treat the tension in cords B and C as internal forces
+(which would make them uninteresting),
 and realize that the upward components of A equal the downward weight of the object.
 That relation is $2 \cdot A \sin 37^\circ = 200$.
 Solving for A yields the same answer.
@@ -1539,5 +1540,46 @@ and the horizonal component of C.
 That relation is $A \cos 37^\circ = B + C \cos 53^\circ$.
 We have calculated A and C,
 so that yields $B = A \cos 37^\circ - C \cos 53^\circ$ = 57.3\,N.
+
+\vspace{\baselineskip}
+\noindent
+\textbf{2-21} In Fig.\,2-20 (of the book), find the weight of the suspended body if the
+tension in the diagonal string is 20\,N.
+
+The point where the diagonal string meets the rightward force and downward weight is
+in equilibrium, so the sum of the forces must be zero.
+The downward weight of the body is balanced by the vertical
+component of the tension in the diagonal string.
+That value is $20 \sin 45^\circ = \frac{20}{\sqrt{2}}$ = 14.1\,N.
+
+\vspace{\baselineskip}
+\noindent
+\textbf{2-22} In each of the arrangements of Fig.\,2-21 (of the book),
+find each tension and the weight of the suspended body if the indicated
+tension T is 10\,N.
+
+For part (a), since the sum of the interior angles is $180^\circ$, 
+the angle between the ceiling and the indicated rope (T=10\,N) is $60^\circ$.
+For the horizontal forces, we have $10 \cos 60^\circ$ = $T_2 \cos 30^\circ$,
+so $T_2 = \frac{10 \cos 60^\circ}{\cos 30^\circ}$ = 5.77\,N.
+For the vertical forces, we have w = $10 \sin 60^\circ + 5.77 \sin 30^\circ$ = 11.5\,N.
+
+For part (b), we are given the lengths, so we must compute the angles.
+Call $\alpha$ the angle between the ropes of length 3 and 6, and $\beta$ the angle
+between the ropes of length 4 (marked with T=10\,N) and 6.
+From the law of cosines, we have $\cos \alpha$ = $\frac{29}{36}$, 
+and $\cos \beta$ = $\frac{43}{48}$.  (We need not evaluate the actual angles,
+since it's the $\cos$ and $\sin$ values that we care about.)
+
+The relation between the horizontal forces is $T_2 \cos \alpha = 10 \cos \beta$, 
+which gives us $T_2 = \frac{10 \frac{43}{48}}{\frac{29}{36}}$ = 11.1\,N.
+
+From the law of sines we have $\frac{\sin \alpha}{4}$ = $\frac{\sin \beta}{3}$.
+We need one more equation, so we use the fact that $\cos^2 \beta + \sin^2 \beta = 1$.
+This gives us $\sin \beta = \sqrt{1-\cos^2 \beta} = \sqrt{1-(43/48)^2}$.
+The weight equals the sum of the upward components of the tension in each rope, 
+so we have w = $11.1 \sin \alpha + 10 \sin \beta$ = $11.1 \frac{4}{3} \sin \beta + 10 \sin \beta$ =
+$(11.1 \frac{4}{3} + 10) \sqrt{1-(43/48)^2}$ = 11.0\,N.
+
 
 \end{document}

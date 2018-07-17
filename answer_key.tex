@@ -1558,7 +1558,7 @@ That value is $20 \sin 45^\circ = \frac{20}{\sqrt{2}}$ = 14.1\,N.
 find each tension and the weight of the suspended body if the indicated
 tension T is 10\,N.
 
-For part (a), since the sum of the interior angles is $180^\circ$, 
+For part (a), since the sum of the interior angles is $180^\circ$,
 the angle between the ceiling and the indicated rope (T=10\,N) is $60^\circ$.
 For the horizontal forces, we have $10 \cos 60^\circ$ = $T_2 \cos 30^\circ$,
 so $T_2 = \frac{10 \cos 60^\circ}{\cos 30^\circ}$ = 5.77\,N.
@@ -1567,19 +1567,45 @@ For the vertical forces, we have w = $10 \sin 60^\circ + 5.77 \sin 30^\circ$ = 1
 For part (b), we are given the lengths, so we must compute the angles.
 Call $\alpha$ the angle between the ropes of length 3 and 6, and $\beta$ the angle
 between the ropes of length 4 (marked with T=10\,N) and 6.
-From the law of cosines, we have $\cos \alpha$ = $\frac{29}{36}$, 
+From the law of cosines, we have $\cos \alpha$ = $\frac{29}{36}$,
 and $\cos \beta$ = $\frac{43}{48}$.  (We need not evaluate the actual angles,
 since it's the $\cos$ and $\sin$ values that we care about.)
+The relation between the horizontal forces is $T_2 \cos \alpha = 10 \cos \beta$,
+which gives us $T_2 = \frac{10 \cdot 43/48}{29/36}$ = 11.1\,N.
 
-The relation between the horizontal forces is $T_2 \cos \alpha = 10 \cos \beta$, 
-which gives us $T_2 = \frac{10 \frac{43}{48}}{\frac{29}{36}}$ = 11.1\,N.
-
-From the law of sines we have $\frac{\sin \alpha}{4}$ = $\frac{\sin \beta}{3}$.
+From the law of sines we have $\sin \alpha$ = $\frac{4}{3} \sin \beta$.
 We need one more equation, so we use the fact that $\cos^2 \beta + \sin^2 \beta = 1$.
 This gives us $\sin \beta = \sqrt{1-\cos^2 \beta} = \sqrt{1-(43/48)^2}$.
-The weight equals the sum of the upward components of the tension in each rope, 
+The weight equals the sum of the upward components of the tension in each rope,
 so we have w = $11.1 \sin \alpha + 10 \sin \beta$ = $11.1 \frac{4}{3} \sin \beta + 10 \sin \beta$ =
 $(11.1 \frac{4}{3} + 10) \sqrt{1-(43/48)^2}$ = 11.0\,N.
 
+\vspace{\baselineskip}
+\noindent
+\textbf{2-23}\newline
+a) Block A in Fig.\,2-22 (of the book) weighs 100\,N.
+The coefficient of static friction between the block and the surface on which it rests
+is 0.30.  The weight $w$ is 20.0\,N and the system is in equilibrium.
+Find the friction force exerted on block A.\newline
+b) Find the maximum weight $w$ for which the system will remain in equilibrium.
+
+For part (a) we are told the weight, and must find the friction force.
+Static friction is a constraint force, so it will adjust as necessary (up to a limit)
+to keep the system in equilibrium.
+Call $T_A$ the tension in the rope connected to block A, 
+and $T_B$ the tension in the diagonal rope connected to the wall.
+The downward force of the weight equals the upward component of $T_B$, 
+$w = T_B \sin 45^\circ$.  The tension $T_A$ equals the horizontal component
+of $T_B$, $T_A = T_B \cos 45^\circ = \frac{w}{\sin 45^\circ} \cdot \cos 45^\circ = w$.
+Block A is in equilibrium, so the resistive force of the static friction equals the tension
+of rope, $f_A = T_A = w$ = 20\,N.
+
+For part (b) we are asked to derive the maximum weight such that the system remains in equilibrium.
+The force of static friction will adjust as the weight changes, up the limit of $\mu F_N$
+(after which block A begins to slip and kinetic friction applies).  
+Block A is in equilibrium,
+so the normal force $F_N$ equals the weight of the block, 100\,N.
+That gives us $f_{max} = \mu F_N = 0.3 \cdot 100$ = 30\,N = $T_A = T_B \cos 45^\circ$.
+The maximum weight is therefore $w = T_B \sin 45^\circ = \frac{30}{\cos 45^\circ} \cdot \sin 45^\circ$ = 30\,N.
 
 \end{document}

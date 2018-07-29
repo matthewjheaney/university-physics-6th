@@ -1643,7 +1643,7 @@ $5 - 5 \sin \theta$ = 0.528\,m.
 \vspace{\baselineskip}
 \noindent
 \textbf{2-25} A flexible rope of weight $w$ hangs between two hooks at the same height,
-as shown in Fig.\,2-23.  
+as shown in Fig.\,2-23 (of the book).
 At each end the rope makes an angle $\theta$ with the horizonal.\newline
 a) What is the magnitude and direction of the force \textbf{F} exerted by the rope
 on the hook at the left?\newline
@@ -1651,16 +1651,103 @@ b) What is the tension \textbf{T} in the rope at its lowest point?
 
 The system is in equilibrium, so the magnitude of the force pulling the rope up must
 equal the weight pulling the rope down.
-The tension force, by the rope on the hook, has a direction tangent to the curve of the rope, 
-so on the left the tension is directed down and to the right. 
-Per Newton's third law, there is a reaction force, by the hook on the rope, 
+The tension force, by the rope on the hook, has a direction tangent to the curve of the rope,
+so on the left the tension is directed down and to the right.
+Per Newton's third law, there is a reaction force, by the hook on the rope,
 which is directed up and to the left.
 If the force is \textbf{F}, then the magnitude of its upward component is $F \sin \theta$.
 There are two hooks, so we have $2\,F \sin \theta = w$.
 The force is therefore $F = \frac{w}{2\,\sin \theta}$.
 
 The tension is tangent to the curve of the rope, so at the lowest point, the tension is horizontal.
-The system is in equilibrium, so the magnitude of the (horizontal) tension at the lowest point 
+The system is in equilibrium, so the magnitude of the (horizontal) tension at the lowest point
 must equal the horizonal component of the force of the hook on the rope.
 So we have $T = F \cos \theta = \frac{w}{2\,\sin \theta} \cdot \cos \theta = \frac{w}{2\,\tan \theta}$.
+
+\vspace{\baselineskip}
+\noindent
+\textbf{2-26} A 30-N block is pulled at constant speed up a frictionless inclined plane by a weight
+of 10\,N hanging from a cord attached to the block and passing over a frictionless 
+pulley at the top of the plane.  (See Fig 2-10 of the book.) Find\newline
+a) the slope angle of the plane,\newline
+b) the tension in the cord, and\newline
+c) the normal force exerted on the block by the plane.
+
+The block is moving at constant speed, so there is no acceleration and hence the system 
+is in equilibrium.  The magnitude of the upward tension in the rope is equal to 
+the downward force of the 10-N weight, so the tension in the cord is 10\,N.
+
+There is no friction in the pulley, so the tension in the rope is everywhere the same,
+and therefore the force pulling the 30-N block up the plane is 10\,N.  
+This must equal the magnitude of the component of the 30-N weight directed down the plane,
+so we have $30 \sin \theta = 10$ and therefore $\theta = \arcsin (1/3) \approx 19.5^\circ$.
+
+The normal force pushing against the 30-N block equals the component of the 30-N weight
+that is perpendicular to the plane, so its magnitude is
+$30 \cos \theta$ = $30 \cos (\arcsin (1/3)) \approx 28.3\,N$.
+
+\vspace{\baselineskip}
+\noindent
+\textbf{2-27}\newline
+a) A block rests upon a rough horizontal surface.
+A horizontal force $T$ is applied to the block and is slowly increased from zero.
+Draw a graph with $T$ along the x-axis and the friction force $f$ along the y-axis,
+starting at $T = 0$ and showing the region of no motion, the point where motion impends,
+and the region where motion exists.\newline
+b) A block of weight $w$ rests on a rough horizontal plank.
+The slope angle of the plank $\theta$ is gradually increased until the block starts to slip.
+Draw two graphs, both with $\theta$ along the x-axis.
+In one graph show the ratio of the normal force to the weight 
+
+Assume that the weight of the block is 10\,N, and that the coefficient of static friction is 0.4,
+and for kinetic friction it's 0.1.
+Static friction is a constraint force, so it adjusts, up to the limit $\mu_s \cdot \textbf{N}$ =
+$0.4 \cdot 10$ = 4\,N.
+As the tension is increased from 0 to 4\,N, the static friction increases by the same amount.
+These forces are in opposition so the net force is zero and hence there is no motion.
+Here's the diagram for part (a):
+
+\begin{figure}[h]
+\includegraphics[scale=0.4]{2-27a}
+\end{figure}
+
+However, when the tension is 4\,N we have reached the limit of static friction and the block
+slips.  The block is now moving, so we have (constant) kinetic friction, 
+equal to $\mu_k \cdot \textbf{N}$ = $0.1 \cdot 10$ = 1\,N.
+Beyond a tension of 4\,N there is a non-zero net force, and the block accelerates.
+
+For part (b), we have a block on a plane whose incline varies.
+The normal force on the block equals the component of the weight that is perpendicular the plane,
+$w \cos \theta$.  Here's that diagram:
+
+\clearpage
+\begin{figure}[h]
+\includegraphics[scale=0.4]{2-27c}
+\end{figure}
+
+When the plank is not inclined, the normal force equals the weight.  However, as $\theta$ is increased,
+the normal force decreases, reaching its limiting value when $\theta = 90^\circ$, at which 
+point the block is in free fall and there is no normal force at all.
+
+The component of the weight that points down the plane is $w \sin \theta$.
+The force of static friction, which points up the plane, varies up to the limit
+of $\mu_s \cdot w\,\cos \theta$.
+As $\theta$ is increased, the downward force eventually equals the maximum static friction force
+and we have $w \sin \theta = \mu_s \cdot w \cos \theta$, and so the block begins to slip when $\tan \theta = \mu_s$.
+Here's the diagram:
+
+\begin{figure}[h]
+\includegraphics[scale=0.6]{2-27b}
+\end{figure}
+
+The blue curve is the ratio of the friction force to the weight.  
+You can see that it tracks the force down the plane due to the weight (the orange curve).
+The downward force and the static friction force are the same, up until the point when the downward force
+equals the limiting value of the static friction force (the green curve), when the block begins to slip.
+Beyond that point, the block is sliding down the plane and so we have kinetic friction (the red curve).
+
+Note that as $\theta$ increases, the ratio of the force down the plane and the weight approaches 1 (the orange curve).
+At the limiting value of $\theta = 90^\circ$, the block is in free fall and the force down the plane is 
+the same as the weight.  The normal force approaches 0, and so when the block is in free fall, there is 
+no normal force and hence no friction (the green and red curves).
 \end{document}

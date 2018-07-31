@@ -1778,7 +1778,7 @@ To move the block we must apply a force equal to the limit of static friction, w
 Once the block is moving, we have sliding friction equal to $\mu_k F_N$ = $0.20 \cdot 20$ = 4\,N.
 So to keep the block moving, we would need a force at least equal to 4\,N.
 
-If the external force is 10\,N we are above the limit of static friction, 
+If the external force is 10\,N we are above the limit of static friction,
 so sliding friction applies.  Sliding friction is constant, so its value is 4\,N.
 
 
@@ -1792,14 +1792,44 @@ What is the weight of the block?
 In order to compute the magnitude of the sliding friction force, we must determine
 the normal force.  The normal force is a constraint force, so it adjusts in order
 to keep the block in equilibrium.  The upward forces acting on the block are
-the normal force and the vertical component of the pull force.  Since the block 
+the normal force and the vertical component of the pull force.  Since the block
 is in equilibrium we know the sum of these forces must equal the weight.
 So we have $F_N + 10 \sin 30^\circ = w$ and therefore $F_N = w - 5$.
 
 The sliding friction is $\mu_k F_N$ = $0.5 \cdot (w - 5)$.  The block is being
-pulled at constant velocity, so the block is in equilibrium and 
-the sliding friction must equal the horizontal component of the pull force, 
+pulled at constant velocity, so the block is in equilibrium and
+the sliding friction must equal the horizontal component of the pull force,
 which gives us $0.5 \cdot (w - 5) = 10 \cos 30^\circ$.
 Solving for w yields 22.3\,N.
+
+
+\vspace{\baselineskip}
+\noindent
+\textbf{2-30} A block weighing 14\,N is placed on an inclined plane and connected
+to a 10-N block by a cord passing over a small frictionless pulley, as in Fig. 2-10 (of the book).
+The coefficient of sliding friction between the block and the plane is $\left( \frac{1}{7} \right)$.
+For what two values of $\theta$ will the system move with constant velocity?
+(Hint: $\cos \theta = \sqrt{1-\sin^2 \theta}$.)
+
+The block can be moving up the ramp or down the ramp.
+The friction force is directed opposite the direction of motion, so if the block is moving up the plane, 
+then the friction force is directed down the plane, and vice versa.
+
+The normal force equals the component of the block's weight that is perpendicular to the plane, 
+so that's $14 \cos \theta$.  Sliding friction is constant, with value $\mu_k F_N$ = 
+$\frac{1}{7} \cdot 14 \cos \theta$ = $2 \cos \theta$.
+
+The weight of the block has a component parallel the plane, directed down the plane, 
+having magnitude $14 \sin \theta$.  The rope transmits the weight of the 10-N block
+(and the pulley changes the direction of the tension), 
+so the tension in the cord attached to the 14-N block is 10\,N.
+
+If the block is moving up the plane at constant speed, the system is in equilibrium 
+and we have $14 \sin \theta + 2 \cos \theta = 10$, 
+which gives us $\theta = 2 \arctan (1/3) = 36.9^\circ$.
+
+If the block is moving down the plane at constant speed,
+then we have $14 \sin \theta = 2 \cos \theta + 10$, 
+which gives us $\theta = 2 \arctan (1/2) = 53.1^\circ$.
 
 \end{document}

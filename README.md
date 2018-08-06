@@ -15,3 +15,9 @@ my Mathematica skills.
 
 Oh, and to learn a bit of physics, too.
 
+Solutions are also provided for the end-of-chapter quizes in the study guide:
+
+Study Guide to accompany University Physics, Sixth Edition (1982)  
+James R. Gaines, William F. Palmer  
+ISBN: 0-201-07224-6
+

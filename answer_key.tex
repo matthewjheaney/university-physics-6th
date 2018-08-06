@@ -775,6 +775,33 @@ $(A_y B_z - A_z B_y) C_x + (A_z B_x - A_x B_z) C_y + (A_x B_y - A_y B_x) C_z$.
 But the parenthesized terms are just the components \textbf{A $\times$ B},
 and the respective products are the dot product, \textbf{(A $\times$ B) $\cdot$ C}.
 
+\vspace{\baselineskip}
+\noindent
+Study Guide - Chapter 1 Quiz
+
+\vspace{\baselineskip}
+\noindent
+\textbf{1} Find the sum (\textbf{C}) and difference (\textbf{D}) of the vectors \textbf{A} and \textbf{B}
+shown in the Fig.\,1-14.
+
+Vector \textbf{A} has components (7, 0) and \textbf{B} has components $15 (\cos 37^\circ, \sin 37^\circ)$.
+Vector \textbf{C} is just the component-wise sum, $(7 + 15 \cos 37^\circ, 15 \sin 37^\circ)$ = $(19.0, 9.0)$.
+The magnitude is $\sqrt{19^2 + 9.0^2}$ = 21.0, and the angle is $\arctan(19.0, 9.0)$ = $25.4^\circ$.
+
+Difference vector \textbf{D} = \textbf{A} - \textbf{B} = $(7 - \cos 37^\circ, -15 \sin 37^\circ)$
+= (-5.0, -9.0).  The magnitude is $\sqrt{(-5.0)^2 + (-9.0)^2}$ = 10.3, with angle
+$\arctan(-5.0, -9.0)$ = $-118.9^\circ$  (same as $241.1^\circ$ measured counter-clockwise).
+
+\vspace{\baselineskip}
+\noindent
+\textbf{2} Two forces \textbf{$F_1$} and \textbf{$F_2$} act on a body at the origin as shown in Fig.\,1-15.
+Find a third force \textbf{$F_3$} acting at the origin such that the total force acting on the body is zero.
+
+We have $F_1$ = $10 (\cos 30^\circ, \sin 30^\circ)$, and $F_2$ = $5 (\cos (-45^\circ), \sin (-45^\circ))$.
+We want $F_3$ = -$(F_1 + F_2)$ = -$(10 \cos 30^\circ + 5 \cos (-45^\circ), 10 \sin 30^\circ +5 \sin (-45^\circ))$
+= (-12.2, -1.46).  The magnitude is $\sqrt{(-12.2)^2 + (-1.46)^2}$ = 12.2\,N,
+with the angle equal to $\arctan(-12.2, -1.46)$ = $-173^\circ$ (same as $187^\circ$ measured counter-clockwise).
+
 \clearpage
 
 % 2018-06-27
@@ -1974,7 +2001,7 @@ That gives us $\mu_k = \frac{1}{3} \tan 37^\circ$ = 0.251.
 \vspace{\baselineskip}
 \noindent
 \textbf{2-37} Two blocks, A and B, are placed as in Fig.\,2-26 and connected by ropes to block C.
-Both A and B weight 20\,N and the coefficient of sliding friction between each block and the 
+Both A and B weight 20\,N and the coefficient of sliding friction between each block and the
 surface is 0.5.
 Block C descends with constant velocity.\newline
 a) Draw two separate force diagrams showing the forces acting on A and on B.\newline
@@ -1991,7 +2018,7 @@ Here's the force diagram for block A:
 
 The forces acting on block A include the tension from both cords, the friction,
 and the component of the weight directed down the ramp,
-and the component of the weight in the direction perpendicular to the ramp 
+and the component of the weight in the direction perpendicular to the ramp
 and the normal force.  Here's the diagram for block B:
 
 \begin{figure}[h]
@@ -2003,10 +2030,58 @@ so the system is in equilibrium and opposing forces have equal magnitude.
 The normal force acting on block A equals its weight, 20\,N.
 The tension equals the friction, so we have $T_1$ = $\mu_k F_N$ = $0.5 \cdot 20$ = 10\,N.
 
-Block C is in equilibrium, so its weight, $w$, equsls the tension in the cord to which it is connected.
+Block C is in equilibrium, so its weight, $w$, equals the tension in the cord to which it is connected.
 
 The friction force acting on block B is $\mu_k F_N$ = $0.5 \cdot 20 \cos 37^\circ = 10 \cos 37^\circ$.
 The horizontal forces are related by $w = 10 + 20 \sin 37^\circ + 10 \cos 37^\circ$ = 30.0\,N.
+
+\vspace{\baselineskip}
+\noindent
+Study Guide - Chapter 2 Quiz
+
+\vspace{\baselineskip}
+\noindent
+\textbf{1} A horizontal rope is stretched between two buildings 20\,m apart.
+When a man weighing 800\,N hangs from the center of the rope, the center is 4\,m
+lower than the ends.
+What is the tension in the rope?
+
+The man is supported by the tension in both halves of the rope.
+Each half of the rope forms a triangle, with the rope as the hypotenuse,
+the horizonal leg equal to half the distance between the buildings (10\,m),
+and the vertical leg equal to 4\,m.
+The length of the hypotenuse is $\sqrt{4^2 + 10^2}$ = $\sqrt{116}$.
+Let $\theta$ be the angle formed by the hypotenuse and the horizontal leg;
+then $\sin \theta = \frac{4}{\sqrt{116}}$.
+
+The system is in equilibrium, so the upward components of the tension in the rope
+equal the downward weight of the man, giving us $2\,T \sin \theta = 800$,
+so T = $\frac{800}{2 \sin \theta} = 400 \cdot \frac{\sqrt{116}}{4}$ = 1077\,N.
+
+Note that the answer given in the study guide, 1081\,N, is incorrect.
+It appears that the authors first evaluated the sine value,
+$\sin \theta$ = $\frac{4}{\sqrt{116}}$ = 0.3714, but then rounded this down to 0.37.
+They computed their result as $\frac{400}{0.37}$ = 1081\,N, but this value is
+too large.  If you carry 4 digits of precision, then $\frac{400}{0.3714}$ gives
+you the correct answer of 1077\,N.
+
+\vspace{\baselineskip}
+\noindent
+\textbf{2} Two ropes attached to the ceiling support a 100\,N weight.
+One rope makes an angle of $30^\circ$ with the ceiling and the other
+makes an angle of $45^\circ$ with the ceiling.
+Find the tension in each rope.
+
+The system is in equilibrium, so the horizontal forces sum to zero as
+do the vertical forces.
+Let $T_1$ be the tension in the rope that is $30^\circ$ from the ceiling,
+and $T_2$ be the tension in the rope that is $45^\circ$ from the ceiling.
+The horizontal components are related by $T_1 \cos 30^\circ = T_2 \sin 45^\circ$.
+The upward components of the ropes equal the downward weight, which is
+$T_1 \sin 30^\circ + T_2 \sin 45^\circ = 100$.
+This is two equations in two unknowns, so we have $T_1$ = 73.2\,N, and $T_2$ = 89.7\,N.
+
+% 2018-08-06
 
 \clearpage
 
